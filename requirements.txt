@@ -1,0 +1,10 @@
+streamlit>=1.50
+tensorflow==2.20.0
+keras==3.13.2
+opencv-python>=4.8,<5
+numpy
+pillow
+mediapipe
+psutil
+pandas
+matplotlib

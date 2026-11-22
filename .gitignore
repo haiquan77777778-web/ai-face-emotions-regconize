@@ -1,0 +1,28 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Generated archives and documents
+*.zip
+*.docx
+*.pdf
+
+# Generated runtime and training output
+results/training/
+results/debug_crops/
+results/conditions_*.csv
+results/conditions_progress.txt
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
